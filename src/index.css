@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+@layer utilities{
+    .padding {
+        @apply sm:px-16 px-8 sm:py-24 py-12;
+    }
+    .padding-x {
+        @apply sm:px-16 px-8;
+    }
+    .padding-y {
+        @apply sm:py-24 py-12;
+    }
+    .padding-t {
+        @apply sm:pt-24 pt-12;
+    }
+    .padding-b {
+        @apply sm:pb-24 pb-12;
+    }
+    .margin-large{
+        @apply mb-12;
+    }
+    .margin-small{
+        @apply mb-3;
+    }
+    .outer-container{
+        @apply flex justify-center items-center w-screen;
+    }
+    .inner-container{
+        @apply max-w-[1600px];
+    }
+}
+

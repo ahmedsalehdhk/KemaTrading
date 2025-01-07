@@ -2,7 +2,7 @@ import React from "react";
 
 const Sustainability = () => {
   return (
-    <div className="w-screen h-screen flex justify-center items-center font-baskerville text-2xl">
+    <div className="w-screen h-screen flex justify-center items-center font-playfair-display text-2xl">
       <p>
         Kema Trading is committed to producing high-quality leather sustainably and with respect for the environment. We understand the need to preserve our planet’s natural resources and reduce our
         environmental impact at every stage of production. For this reason, we use only low-impact chemicals and adopt sustainable production practices. We strive to reduce water and energy usage,

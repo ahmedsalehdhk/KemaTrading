@@ -25,7 +25,7 @@ export default {
       }
     },
     fontFamily: {
-      'baskerville': ['Baskervville'],
+      'playfair-display': ['Playfair Display'],
       'open-sans': ["Open Sans"]
     },
   },

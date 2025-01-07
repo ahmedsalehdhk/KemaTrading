@@ -11,11 +11,11 @@ const Footer = () => {
     <section className='outer-container text-white bg-gradient-to-tl from-[#3D2825] to-[#8B6159]'>
         <div className="inner-container w-full h-full">
           <div className="footer-upper padding-x py-8">
-            <h1 className='font-baskerville text-3xl leading-normal'>Your one stop solution to a world of<br className='hidden md:block' /> leather products</h1>
+            <h1 className='font-playfair-display text-3xl leading-normal'>Your one stop solution to a world of<br className='hidden md:block' /> leather products</h1>
           </div>
           {/* divider */}
           <hr className='border border-[#4E3430] w-screen' />
-          <div className="footer-lower padding-x py-8 font-baskerville text-xl">
+          <div className="footer-lower padding-x py-8 font-playfair-display text-xl">
             <div className="row-1 grid grid-cols-1 md:grid-cols-5 margin-small">
               <div className="company-branding col-span-1 md:col-span-3 margin-large md:mb-0">
                 <h2 className='text-2xl mb-1'>Kema Trading Logo</h2>
